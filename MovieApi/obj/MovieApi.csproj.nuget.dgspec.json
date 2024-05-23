@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.Net PR\\Core PR\\API_EF_CRUD\\Exam\\MovieAPI-Project\\MovieApi\\MovieApi.csproj": {}
+  },
+  "projects": {
+    "D:\\.Net PR\\Core PR\\API_EF_CRUD\\Exam\\MovieAPI-Project\\MovieApi\\MovieApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net PR\\Core PR\\API_EF_CRUD\\Exam\\MovieAPI-Project\\MovieApi\\MovieApi.csproj",
+        "projectName": "MovieApi",
+        "projectPath": "D:\\.Net PR\\Core PR\\API_EF_CRUD\\Exam\\MovieAPI-Project\\MovieApi\\MovieApi.csproj",
+        "packagesPath": "C:\\Users\\kailas.patil\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net PR\\Core PR\\API_EF_CRUD\\Exam\\MovieAPI-Project\\MovieApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kailas.patil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
